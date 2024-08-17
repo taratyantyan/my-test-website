@@ -3,10 +3,140 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>テストウェブサイト</title>
+    <title>AIM保育園 8月のお便り</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        h1 {
+            color: #0066cc;
+        }
+        .header-image {
+            width: 100%;
+            max-height: 200px;
+            object-fit: cover;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-bottom: 20px;
+        }
+        th, td {
+            border: 1px solid #ddd;
+            padding: 8px;
+            text-align: left;
+        }
+        th {
+            background-color: #f2f2f2;
+        }
+        .footer {
+            margin-top: 40px;
+            border-top: 1px solid #ddd;
+            padding-top: 20px;
+            font-size: 0.9em;
+        }
+    </style>
 </head>
 <body>
-    <h1>こんにちは、世界！</h1>
-    <p>これは私のテストウェブサイトです。</p>
+    <header>
+        <img src="/api/placeholder/800/200" alt="波の画像" class="header-image">
+        <h1>AIM保育園 8月のお便り</h1>
+        <p>発行日：2024年7月31日</p>
+    </header>
+
+    <section>
+        <h2>園長先生からのごあいさつ</h2>
+        <p>暑い日が続いておりますが、みなさまいかがお過ごしでしょうか。サニーサイド保育園では、夏の暑さに負けずに、元気に過ごしております。子どもたちは毎日元気いっぱいに、水遊びや室内での遊びを楽しんでいます。夏休み期間中はわり穂幼稚行かなどの、楽しく安全に過ごせる企画一杯用意をしております。今月は研修の機会も見予定しております。感染症対策を徹底しつつ、子どもたちと保護者の皆様に楽しんでいただける時間を過ごしていきます。皆様のご参加をなによりお待ちしております。暑い日が続きますが、ご家庭でも体調管理にお気をつけください。今月も皆様と共に素晴らしい時間を過ごせます。</p>
+    </section>
+
+    <section>
+        <h2>今月の主な予定</h2>
+        <table>
+            <tr>
+                <th>日付</th>
+                <th>イベント</th>
+            </tr>
+            <tr>
+                <td>8/1 (木)</td>
+                <td>夏祭り準備</td>
+            </tr>
+            <tr>
+                <td>8/3 (土)</td>
+                <td>夏祭り (16:00〜18:00)</td>
+            </tr>
+            <tr>
+                <td>8/11 (日) 〜8/15 (木)</td>
+                <td>お盆休み</td>
+            </tr>
+            <tr>
+                <td>8/20 (火)</td>
+                <td>避難訓練</td>
+            </tr>
+            <tr>
+                <td>8/25 (日)</td>
+                <td>プール納め</td>
+            </tr>
+            <tr>
+                <td>8/31 (土)</td>
+                <td>誕生日会</td>
+            </tr>
+        </table>
+    </section>
+
+    <section>
+        <h2>お知らせとお願い</h2>
+        <ol>
+            <li>
+                <h3>熱中症対策について</h3>
+                <ul>
+                    <li>帽子、水筒の持参をお願いします。</li>
+                    <li>暑い日は外遊びを控える場合があります。</li>
+                </ul>
+            </li>
+            <li>
+                <h3>夏祭りのお手伝い募集</h3>
+                <ul>
+                    <li>8/3 (土) の夏祭り準備にご協力いただける保護者の方を募集しています。</li>
+                    <li>詳細は別紙をご覧ください。</li>
+                </ul>
+            </li>
+            <li>
+                <h3>プール活動について</h3>
+                <ul>
+                    <li>8/25までプール活動を行います。</li>
+                    <li>毎日、タオルと着替えの準備をお願いします。</li>
+                </ul>
+            </li>
+            <li>
+                <h3>お盆期間の保育について</h3>
+                <ul>
+                    <li>8/11〜8/15はお盆休みとなります。</li>
+                    <li>休み明けの持ち物にご注意ください。</li>
+                </ul>
+            </li>
+        </ol>
+    </section>
+
+    <section>
+        <h2>今月の特集：夏の食育活動</h2>
+        <p>今月は、夏野菜を使った調理体験を行います。トマトやきゅうり、なすを使った簡単サラダ作りを通じて、食材に触れる楽しさや、自分で作る喜びを体験します。</p>
+    </section>
+
+    <section>
+        <h2>感染症対策のお願い</h2>
+        <p>引き続き、手洗い、うがいの徹底をお願いします。体調不良の際は登園をご遠慮ください。ご家庭での健康管理にご協力くださいますようお願いいたします。今月も皆様と共に素晴らしい時間を過ごしていきます。ご協力のほど、よろしくお願いいたします。</p>
+    </section>
+
+    <footer class="footer">
+        <h3>AIM保育園</h3>
+        <p>〒123-4567 東京都OO区AA町1-2-3</p>
+        <p>TEL: 03-1234-5678</p>
+        <a href="#">ウェブサイトはこちら</a>
+    </footer>
 </body>
 </html>
